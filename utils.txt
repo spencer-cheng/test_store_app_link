@@ -1,0 +1,33 @@
+
+// show the certificate
+bin\keytool.exe -list -v -keystore C:\Users\spencercheng/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+// verify signature for APK
+apksigner verify --verbose C:\Work\WProjs\ms-xbox-fake-app-store\Build\Android\fake_app_store_app_link.apk
+
+// extract APK signature information
+bin\keytool -printcert -jarfile  C:\Work\WProjs\ms-xbox-fake-app-store\Build\Android\fake_app_store_app_link.apk
+
+
+https://spencer-cheng.github.io/test_store_app_link/.well-known/assetlinks.json
+
+adb shell am start -a android.intent.action.VIEW -d "https://spencer-cheng.github.io/test_store_app_link/README.md" com.UnityTechnologies.com.unity.fake.app.store
+adb shell am start -a android.intent.action.VIEW -d "https://spencer-cheng.github.io/test_store_app_link/README.md" 
+
+
+adb shell am start -a android.intent.action.VIEW -d "https://spencer-cheng.github.io/test_store_app_link/README.md" com.UnityTechnologies.com.unity.fake.app.store
+
+adb shell pm get-app-links com.UnityTechnologies.com.unity.fake.app.store
+
+adb shell am broadcast -a android.intent.action.VIEW -d "https://spencer-cheng.github.io/test_store_app_link"
+adb shell pm verify-app-links --re-verify com.UnityTechnologies.com.unity.fake.app.store
+
+
+xiaoshuo.ip-ddns.com
+
+com.UnityTechnologies.com.unity.fake.app.store
+
+
+1. have to be on the main domain root,
+
+
