@@ -1,10 +1,22 @@
-[{
+[
+  {
+    "relation": [ "delegate_permission/common.handle_all_urls" ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.microsoft.xbox.store",
+      "sha256_cert_fingerprints": [
+        "27:B9:D8:8A:A6:43:1F:B5:2B:2B:B1:18:D4:76:AD:61:13:E9:17:EC:74:53:5F:24:AC:7D:C2:37:37:11:6A:70"
+      ]
+    }
+  },
+  {
     "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.microsoft.xbox.store",
-    "sha256_cert_fingerprints": [
-      "86:EC:C9:A1:02:82:1E:8D:9C:D9:19:2A:B8:A9:AA:C4:76:B3:30:21:76:BA:51:54:B6:C6:36:BE:A9:A8:10:C1"
-    ]
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.UnityTechnologies.com.unity.fake.app.store",
+      "sha256_cert_fingerprints": [
+        "86:EC:C9:A1:02:82:1E:8D:9C:D9:19:2A:B8:A9:AA:C4:76:B3:30:21:76:BA:51:54:B6:C6:36:BE:A9:A8:10:C1"
+      ]
+    }
   }
-}]
+]
